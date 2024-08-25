@@ -1,0 +1,494 @@
+CVE,CVSS v2.0 Base Score,Risk,Host,Protocol,Port,Name,CVSS v3.0 Base Score
+,,None,10.0.2.5,tcp,80,HTTP Server Type and Version,
+,,None,10.0.2.5,tcp,443,HTTP Server Type and Version,
+CVE-1999-0524,0,None,10.0.2.5,icmp,0,ICMP Timestamp Request Remote Date Disclosure,0
+,,None,10.0.2.5,udp,137,Windows NetBIOS / SMB Remote Host Information Disclosure,
+CVE-1999-0632,0,None,10.0.2.5,udp,111,RPC portmapper Service Detection,0
+,,None,10.0.2.5,tcp,22,SSH Server Type and Version Information,
+,,None,10.0.2.5,udp,0,Traceroute Information,
+CVE-2001-0816,7.5,High,10.0.2.5,tcp,22,OpenSSH 2.5.x - 2.9 Multiple Vulnerabilities,
+CVE-2001-1380,7.5,High,10.0.2.5,tcp,22,OpenSSH 2.5.x - 2.9 Multiple Vulnerabilities,
+CVE-2001-1507,6.8,Medium,10.0.2.5,tcp,22,OpenSSH < 3.0.1 Multiple Flaws,
+CVE-2001-0835,4.3,Medium,10.0.2.5,tcp,80,Webalizer < 2.01-09 Multiple XSS,
+CVE-2001-0835,4.3,Medium,10.0.2.5,tcp,443,Webalizer < 2.01-09 Multiple XSS,
+CVE-2001-0872,7.2,High,10.0.2.5,tcp,22,OpenSSH < 3.0.2 Multiple Vulnerabilities,
+CVE-2001-1029,7.2,High,10.0.2.5,tcp,22,OpenSSH < 3.0.2 Multiple Vulnerabilities,
+,,None,10.0.2.5,tcp,443,SSL Certificate Information,
+,,None,10.0.2.5,tcp,22,SSH Protocol Versions Supported,
+CVE-2001-0361,7.5,High,10.0.2.5,tcp,22,SSH Protocol Version 1 Session Key Retrieval,
+CVE-2001-0572,7.5,High,10.0.2.5,tcp,22,SSH Protocol Version 1 Session Key Retrieval,
+CVE-2001-1473,7.5,High,10.0.2.5,tcp,22,SSH Protocol Version 1 Session Key Retrieval,
+CVE-2002-0083,10,Critical,10.0.2.5,tcp,22,OpenSSH < 3.1 Channel Code Off by One Remote Privilege Escalation,
+CVE-2002-0575,7.5,High,10.0.2.5,tcp,22,OpenSSH Kerberos TGT/AFS Token Passing Remote Overflow,
+,,None,10.0.2.5,tcp,139,Microsoft Windows SMB Service Detection,
+CVE-2002-0392,7.5,High,10.0.2.5,tcp,80,Apache Chunked Encoding Remote Overflow,7.3
+CVE-2002-0392,7.5,High,10.0.2.5,tcp,443,Apache Chunked Encoding Remote Overflow,7.3
+CVE-2002-0639,10,Critical,10.0.2.5,tcp,22,OpenSSH < 3.4 Multiple Remote Overflows,
+CVE-2002-0640,10,Critical,10.0.2.5,tcp,22,OpenSSH < 3.4 Multiple Remote Overflows,
+,,None,10.0.2.5,tcp,111,RPC Services Enumeration,
+,,None,10.0.2.5,tcp,32768,RPC Services Enumeration,
+,,None,10.0.2.5,udp,111,RPC Services Enumeration,
+,,None,10.0.2.5,udp,32772,RPC Services Enumeration,
+CVE-2002-0839,7.5,High,10.0.2.5,tcp,80,"Apache < 1.3.27 Multiple Vulnerabilities (DoS, XSS)",7.3
+CVE-2002-0840,7.5,High,10.0.2.5,tcp,80,"Apache < 1.3.27 Multiple Vulnerabilities (DoS, XSS)",7.3
+CVE-2002-0843,7.5,High,10.0.2.5,tcp,80,"Apache < 1.3.27 Multiple Vulnerabilities (DoS, XSS)",7.3
+CVE-2002-0839,7.5,High,10.0.2.5,tcp,443,"Apache < 1.3.27 Multiple Vulnerabilities (DoS, XSS)",7.3
+CVE-2002-0840,7.5,High,10.0.2.5,tcp,443,"Apache < 1.3.27 Multiple Vulnerabilities (DoS, XSS)",7.3
+CVE-2002-0843,7.5,High,10.0.2.5,tcp,443,"Apache < 1.3.27 Multiple Vulnerabilities (DoS, XSS)",7.3
+CVE-2003-1567,5,Medium,10.0.2.5,tcp,80,HTTP TRACE / TRACK Methods Allowed,5.3
+CVE-2004-2320,5,Medium,10.0.2.5,tcp,80,HTTP TRACE / TRACK Methods Allowed,5.3
+CVE-2010-0386,5,Medium,10.0.2.5,tcp,80,HTTP TRACE / TRACK Methods Allowed,5.3
+CVE-2003-1567,5,Medium,10.0.2.5,tcp,443,HTTP TRACE / TRACK Methods Allowed,5.3
+CVE-2004-2320,5,Medium,10.0.2.5,tcp,443,HTTP TRACE / TRACK Methods Allowed,5.3
+CVE-2010-0386,5,Medium,10.0.2.5,tcp,443,HTTP TRACE / TRACK Methods Allowed,5.3
+,,None,10.0.2.5,tcp,22,Nessus SYN scanner,
+,,None,10.0.2.5,tcp,80,Nessus SYN scanner,
+,,None,10.0.2.5,tcp,111,Nessus SYN scanner,
+,,None,10.0.2.5,tcp,139,Nessus SYN scanner,
+,,None,10.0.2.5,tcp,443,Nessus SYN scanner,
+,,None,10.0.2.5,tcp,32768,Nessus SYN scanner,
+CVE-2003-0078,4.3,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.6j / 0.9.7b Multiple Vulnerabilities,
+CVE-2003-0131,4.3,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.6j / 0.9.7b Multiple Vulnerabilities,
+CVE-2003-0147,4.3,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.6j / 0.9.7b Multiple Vulnerabilities,
+CVE-2003-0078,4.3,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.6j / 0.9.7b Multiple Vulnerabilities,
+CVE-2003-0131,4.3,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.6j / 0.9.7b Multiple Vulnerabilities,
+CVE-2003-0147,4.3,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.6j / 0.9.7b Multiple Vulnerabilities,
+,,None,10.0.2.5,tcp,80,Web Server Unconfigured - Default Install Page Present,
+,,None,10.0.2.5,tcp,443,Web Server Unconfigured - Default Install Page Present,
+CVE-2003-0386,7.5,High,10.0.2.5,tcp,22,OpenSSH < 3.6.2 Reverse DNS Lookup Bypass,
+CVE-2003-0460,7.1,Critical,10.0.2.5,tcp,80,"Apache < 1.3.28 Multiple Vulnerabilities (DoS, ID)",9.1
+CVE-2003-0460,7.1,Critical,10.0.2.5,tcp,443,"Apache < 1.3.28 Multiple Vulnerabilities (DoS, ID)",9.1
+CVE-2003-0682,10,Critical,10.0.2.5,tcp,22,OpenSSH < 3.7.1 Multiple Vulnerabilities,
+CVE-2003-0693,10,Critical,10.0.2.5,tcp,22,OpenSSH < 3.7.1 Multiple Vulnerabilities,
+CVE-2003-0695,10,Critical,10.0.2.5,tcp,22,OpenSSH < 3.7.1 Multiple Vulnerabilities,
+CVE-2004-2760,10,Critical,10.0.2.5,tcp,22,OpenSSH < 3.7.1 Multiple Vulnerabilities,
+CVE-2003-0542,7.2,Critical,10.0.2.5,tcp,80,Apache < 1.3.29 Multiple Modules Local Overflow,9.8
+CVE-2003-0542,7.2,Critical,10.0.2.5,tcp,443,Apache < 1.3.29 Multiple Modules Local Overflow,9.8
+,,None,10.0.2.5,tcp,0,OS Identification,
+CVE-2004-0079,5,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.6m / 0.9.7d Multiple Remote DoS,
+CVE-2004-0081,5,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.6m / 0.9.7d Multiple Remote DoS,
+CVE-2004-0112,5,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.6m / 0.9.7d Multiple Remote DoS,
+CVE-2004-0079,5,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.6m / 0.9.7d Multiple Remote DoS,
+CVE-2004-0081,5,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.6m / 0.9.7d Multiple Remote DoS,
+CVE-2004-0112,5,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.6m / 0.9.7d Multiple Remote DoS,
+CVE-2004-0488,7.5,High,10.0.2.5,tcp,80,mod_ssl ssl_util_uuencode_binary Remote Overflow,
+CVE-2004-0488,7.5,High,10.0.2.5,tcp,443,mod_ssl ssl_util_uuencode_binary Remote Overflow,
+CVE-2004-0700,7.5,High,10.0.2.5,tcp,80,Apache mod_ssl ssl_engine_log.c mod_proxy Hook Function Remote Format String,
+CVE-2004-0700,7.5,High,10.0.2.5,tcp,443,Apache mod_ssl ssl_engine_log.c mod_proxy Hook Function Remote Format String,
+,5,Medium,10.0.2.5,tcp,443,SSL Certificate Expiry,5.3
+CVE-2008-2168,4.3,Medium,10.0.2.5,tcp,80,Apache HTTP Server 403 Error Page UTF-7 Encoded XSS,6.5
+CVE-2008-2168,4.3,Medium,10.0.2.5,tcp,443,Apache HTTP Server 403 Error Page UTF-7 Encoded XSS,6.5
+CVE-2002-0746,7.2,High,10.0.2.5,tcp,22,OpenSSH < 3.6.1p2 Multiple Vulnerabilities,
+CVE-2002-0655,7.5,High,10.0.2.5,tcp,80,OpenSSL < 0.9.6e Multiple Vulnerabilities,
+CVE-2002-0656,7.5,High,10.0.2.5,tcp,80,OpenSSL < 0.9.6e Multiple Vulnerabilities,
+CVE-2002-0659,7.5,High,10.0.2.5,tcp,80,OpenSSL < 0.9.6e Multiple Vulnerabilities,
+CVE-2002-0655,7.5,High,10.0.2.5,tcp,443,OpenSSL < 0.9.6e Multiple Vulnerabilities,
+CVE-2002-0656,7.5,High,10.0.2.5,tcp,443,OpenSSL < 0.9.6e Multiple Vulnerabilities,
+CVE-2002-0659,7.5,High,10.0.2.5,tcp,443,OpenSSL < 0.9.6e Multiple Vulnerabilities,
+CVE-2002-1568,5,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.6f Denial of Service,
+CVE-2002-1568,5,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.6f Denial of Service,
+CVE-2003-0543,5,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.6k Denial of Service,
+CVE-2003-0544,5,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.6k Denial of Service,
+CVE-2003-0543,5,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.6k Denial of Service,
+CVE-2003-0544,5,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.6k Denial of Service,
+CVE-2003-0851,5,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.6l Denial of Service,
+CVE-2003-0851,5,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.6l Denial of Service,
+CVE-2004-0079,5,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.6m / 0.9.7d Denial of Service,
+CVE-2004-0112,5,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.6m / 0.9.7d Denial of Service,
+CVE-2004-0079,5,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.6m / 0.9.7d Denial of Service,
+CVE-2004-0112,5,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.6m / 0.9.7d Denial of Service,
+CVE-2009-0653,7.5,High,10.0.2.5,tcp,80,OpenSSL 0.9.6 CA Basic Constraints Validation Vulnerability,
+CVE-2009-0653,7.5,High,10.0.2.5,tcp,443,OpenSSL 0.9.6 CA Basic Constraints Validation Vulnerability,
+CVE-2002-0657,7.5,High,10.0.2.5,tcp,80,OpenSSL < 0.9.7-beta3 Buffer Overflow,
+CVE-2002-0657,7.5,High,10.0.2.5,tcp,443,OpenSSL < 0.9.7-beta3 Buffer Overflow,
+CVE-2004-0975,2.1,Low,10.0.2.5,tcp,80,OpenSSL < 0.9.7f Insecure Temporary File Creation,
+CVE-2004-0975,2.1,Low,10.0.2.5,tcp,443,OpenSSL < 0.9.7f Insecure Temporary File Creation,
+CVE-2006-4339,4.3,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.7k / 0.9.8c PKCS Padding RSA Signature Forgery Vulnerability,5.8
+CVE-2006-4339,4.3,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.7k / 0.9.8c PKCS Padding RSA Signature Forgery Vulnerability,5.8
+CVE-2005-2946,5,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.8 Weak Default Configuration,
+CVE-2005-2946,5,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.8 Weak Default Configuration,
+CVE-2007-3108,9.3,High,10.0.2.5,tcp,80,OpenSSL < 0.9.8f Multiple Vulnerabilities,
+CVE-2007-4995,9.3,High,10.0.2.5,tcp,80,OpenSSL < 0.9.8f Multiple Vulnerabilities,
+CVE-2007-3108,9.3,High,10.0.2.5,tcp,443,OpenSSL < 0.9.8f Multiple Vulnerabilities,
+CVE-2007-4995,9.3,High,10.0.2.5,tcp,443,OpenSSL < 0.9.8f Multiple Vulnerabilities,
+CVE-2009-1386,5,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.8i Denial of Service,
+CVE-2009-1386,5,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.8i Denial of Service,
+CVE-2008-5077,5.8,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.8j Signature Spoofing,
+CVE-2008-5077,5.8,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.8j Signature Spoofing,
+CVE-2009-0590,5,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.8k Multiple Vulnerabilities,
+CVE-2009-0591,5,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.8k Multiple Vulnerabilities,
+CVE-2009-0789,5,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.8k Multiple Vulnerabilities,
+CVE-2009-5146,5,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.8k Multiple Vulnerabilities,
+CVE-2009-0590,5,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.8k Multiple Vulnerabilities,
+CVE-2009-0591,5,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.8k Multiple Vulnerabilities,
+CVE-2009-0789,5,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.8k Multiple Vulnerabilities,
+CVE-2009-5146,5,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.8k Multiple Vulnerabilities,
+CVE-2009-0789,5.1,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.8l Multiple Vulnerabilities,
+CVE-2009-1377,5.1,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.8l Multiple Vulnerabilities,
+CVE-2009-1378,5.1,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.8l Multiple Vulnerabilities,
+CVE-2009-2409,5.1,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.8l Multiple Vulnerabilities,
+CVE-2009-0789,5.1,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.8l Multiple Vulnerabilities,
+CVE-2009-1377,5.1,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.8l Multiple Vulnerabilities,
+CVE-2009-1378,5.1,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.8l Multiple Vulnerabilities,
+CVE-2009-2409,5.1,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.8l Multiple Vulnerabilities,
+,,None,10.0.2.5,tcp,0,Nessus Scan Information,
+CVE-2005-2797,3.5,Low,10.0.2.5,tcp,22,OpenSSH < 4.2 Multiple Vulnerabilities,
+CVE-2005-2798,3.5,Low,10.0.2.5,tcp,22,OpenSSH < 4.2 Multiple Vulnerabilities,
+CVE-2006-0393,3.5,Low,10.0.2.5,tcp,22,OpenSSH < 4.2 Multiple Vulnerabilities,
+,10,Critical,10.0.2.5,tcp,443,SSL Version 2 and 3 Protocol Detection,9.8
+,,None,10.0.2.5,tcp,443,SSL Cipher Suites Supported,
+,,None,10.0.2.5,tcp,22,Service Detection,
+,,None,10.0.2.5,tcp,80,Service Detection,
+,,None,10.0.2.5,tcp,443,Service Detection,
+,,None,10.0.2.5,tcp,443,Service Detection,
+,,None,10.0.2.5,tcp,80,HyperText Transfer Protocol (HTTP) Information,
+,,None,10.0.2.5,tcp,443,HyperText Transfer Protocol (HTTP) Information,
+,,None,10.0.2.5,tcp,0,TCP/IP Timestamps Supported,
+,4.3,Medium,10.0.2.5,tcp,443,SSL Weak Cipher Suites Supported,5.3
+CVE-2006-3747,7.5,High,10.0.2.5,tcp,80,Apache < 1.3.37 mod_rewrite LDAP Protocol URL Handling Overflow,7.3
+CVE-2006-3747,7.5,High,10.0.2.5,tcp,443,Apache < 1.3.37 mod_rewrite LDAP Protocol URL Handling Overflow,7.3
+CVE-2008-1483,6.9,Medium,10.0.2.5,tcp,22,OpenSSH X11 Forwarding Session Hijacking,
+CVE-2008-3234,6.9,Medium,10.0.2.5,tcp,22,OpenSSH X11 Forwarding Session Hijacking,
+CVE-2004-2761,5,High,10.0.2.5,tcp,443,SSL Certificate Signed Using Weak Hashing Algorithm,7.5
+,,None,10.0.2.5,tcp,0,Ethernet Card Manufacturer Detection,
+CVE-2016-2183,5,High,10.0.2.5,tcp,443,SSL Medium Strength Cipher Suites Supported (SWEET32),7.5
+CVE-2009-3555,5.8,Medium,10.0.2.5,tcp,443,SSL / TLS Renegotiation Handshakes MiTM Plaintext Data Injection,
+,,None,10.0.2.5,tcp,80,HTTP Methods Allowed (per directory),
+,,None,10.0.2.5,tcp,443,HTTP Methods Allowed (per directory),
+CVE-2008-5161,4,Medium,10.0.2.5,tcp,22,OpenSSH < 5.2 CBC Plaintext Disclosure,
+CVE-2002-0765,7.5,High,10.0.2.5,tcp,22,OpenSSH < 3.2.3 YP Netgroups Authentication Bypass,
+CVE-2006-0883,5,Medium,10.0.2.5,tcp,22,OpenSSH With OpenPAM DoS,
+CVE-2004-2069,5,Medium,10.0.2.5,tcp,22,Portable OpenSSH < 3.8p1 Multiple Vulnerabilities,
+CVE-2004-2760,1.2,Low,10.0.2.5,tcp,22,OpenSSH < 4.0 known_hosts Plaintext Host Information Disclosure,
+CVE-2005-2666,1.2,Low,10.0.2.5,tcp,22,OpenSSH < 4.0 known_hosts Plaintext Host Information Disclosure,
+CVE-2007-4654,1.2,Low,10.0.2.5,tcp,22,OpenSSH < 4.0 known_hosts Plaintext Host Information Disclosure,
+CVE-2006-0225,4.6,Medium,10.0.2.5,tcp,22,OpenSSH  < 4.3 scp Command Line Filename Processing Command Injection,
+CVE-2006-4925,7.5,High,10.0.2.5,tcp,22,OpenSSH < 4.5 Multiple Vulnerabilities,
+CVE-2006-5794,7.5,High,10.0.2.5,tcp,22,OpenSSH < 4.5 Multiple Vulnerabilities,
+CVE-2007-0726,7.5,High,10.0.2.5,tcp,22,OpenSSH < 4.5 Multiple Vulnerabilities,
+CVE-2007-2243,7.5,High,10.0.2.5,tcp,22,OpenSSH < 4.7 Trusted X11 Cookie Connection Policy Bypass,
+CVE-2007-4752,7.5,High,10.0.2.5,tcp,22,OpenSSH < 4.7 Trusted X11 Cookie Connection Policy Bypass,
+CVE-2008-1657,6.5,Medium,10.0.2.5,tcp,22,OpenSSH < 4.9 'ForceCommand' Directive Bypass,
+CVE-2008-3259,1.2,Low,10.0.2.5,tcp,22,OpenSSH X11UseLocalhost X11 Forwarding Port Hijacking,
+,,None,10.0.2.5,tcp,443,SSL Certificate 'commonName' Mismatch,
+,5,Medium,10.0.2.5,tcp,443,SSL Certificate with Wrong Hostname,5.3
+,,None,10.0.2.5,tcp,0,Common Platform Enumeration (CPE),
+,,None,10.0.2.5,tcp,80,Apache HTTP Server Version,
+,,None,10.0.2.5,tcp,443,Apache HTTP Server Version,
+,6.4,Medium,10.0.2.5,tcp,443,SSL Certificate Cannot Be Trusted,6.5
+,,None,10.0.2.5,tcp,443,SSL Session Resume Supported,
+CVE-2010-4180,4.3,Medium,10.0.2.5,tcp,443,OpenSSL SSL_OP_NETSCAPE_REUSE_CIPHER_CHANGE_BUG Session Resume Ciphersuite Downgrade Issue,
+,,None,10.0.2.5,tcp,111,RPC portmapper (TCP),
+,,None,10.0.2.5,tcp,443,SSL Server Accepts Weak Diffie-Hellman Keys,
+CVE-2011-4327,2.1,Low,10.0.2.5,tcp,22,Portable OpenSSH ssh-keysign ssh-rand-helper Utility File Descriptor Leak Local Information Disclosure,
+,,None,10.0.2.5,tcp,0,Device Type,
+,,None,10.0.2.5,tcp,443,SSL / TLS Versions Supported,
+CVE-2008-0891,4.3,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.8h Multiple Vulnerabilities,
+CVE-2008-1672,4.3,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.8h Multiple Vulnerabilities,
+CVE-2011-4354,4.3,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.8h Multiple Vulnerabilities,
+CVE-2008-0891,4.3,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.8h Multiple Vulnerabilities,
+CVE-2008-1672,4.3,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.8h Multiple Vulnerabilities,
+CVE-2011-4354,4.3,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.8h Multiple Vulnerabilities,
+,,None,10.0.2.5,tcp,443,SSL Perfect Forward Secrecy Cipher Suites Supported,
+,,None,10.0.2.5,tcp,80,OpenSSL Version Detection,
+,,None,10.0.2.5,tcp,443,OpenSSL Version Detection,
+CVE-2011-1945,9.3,High,10.0.2.5,tcp,80,OpenSSL < 0.9.8s Multiple Vulnerabilities,
+CVE-2011-4108,9.3,High,10.0.2.5,tcp,80,OpenSSL < 0.9.8s Multiple Vulnerabilities,
+CVE-2011-4109,9.3,High,10.0.2.5,tcp,80,OpenSSL < 0.9.8s Multiple Vulnerabilities,
+CVE-2011-4576,9.3,High,10.0.2.5,tcp,80,OpenSSL < 0.9.8s Multiple Vulnerabilities,
+CVE-2011-4577,9.3,High,10.0.2.5,tcp,80,OpenSSL < 0.9.8s Multiple Vulnerabilities,
+CVE-2011-4619,9.3,High,10.0.2.5,tcp,80,OpenSSL < 0.9.8s Multiple Vulnerabilities,
+CVE-2011-1945,9.3,High,10.0.2.5,tcp,443,OpenSSL < 0.9.8s Multiple Vulnerabilities,
+CVE-2011-4108,9.3,High,10.0.2.5,tcp,443,OpenSSL < 0.9.8s Multiple Vulnerabilities,
+CVE-2011-4109,9.3,High,10.0.2.5,tcp,443,OpenSSL < 0.9.8s Multiple Vulnerabilities,
+CVE-2011-4576,9.3,High,10.0.2.5,tcp,443,OpenSSL < 0.9.8s Multiple Vulnerabilities,
+CVE-2011-4577,9.3,High,10.0.2.5,tcp,443,OpenSSL < 0.9.8s Multiple Vulnerabilities,
+CVE-2011-4619,9.3,High,10.0.2.5,tcp,443,OpenSSL < 0.9.8s Multiple Vulnerabilities,
+,6.4,Medium,10.0.2.5,tcp,443,SSL Self-Signed Certificate,6.5
+,5,Medium,10.0.2.5,tcp,139,SMB Signing not required,5.3
+CVE-2006-7250,5,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.8u Multiple Vulnerabilities,
+CVE-2011-4619,5,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.8u Multiple Vulnerabilities,
+CVE-2012-0884,5,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.8u Multiple Vulnerabilities,
+CVE-2012-1165,5,Medium,10.0.2.5,tcp,80,OpenSSL < 0.9.8u Multiple Vulnerabilities,
+CVE-2006-7250,5,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.8u Multiple Vulnerabilities,
+CVE-2011-4619,5,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.8u Multiple Vulnerabilities,
+CVE-2012-0884,5,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.8u Multiple Vulnerabilities,
+CVE-2012-1165,5,Medium,10.0.2.5,tcp,443,OpenSSL < 0.9.8u Multiple Vulnerabilities,
+,,None,10.0.2.5,tcp,443,SSL Resume With Different Cipher Issue,
+CVE-2012-2110,7.5,High,10.0.2.5,tcp,80,OpenSSL < 0.9.8w ASN.1 asn1_d2i_read_bio Memory Corruption,
+CVE-2012-2131,7.5,High,10.0.2.5,tcp,80,OpenSSL < 0.9.8w ASN.1 asn1_d2i_read_bio Memory Corruption,
+CVE-2012-2110,7.5,High,10.0.2.5,tcp,443,OpenSSL < 0.9.8w ASN.1 asn1_d2i_read_bio Memory Corruption,
+CVE-2012-2131,7.5,High,10.0.2.5,tcp,443,OpenSSL < 0.9.8w ASN.1 asn1_d2i_read_bio Memory Corruption,
+CVE-2012-2333,5,Medium,10.0.2.5,tcp,80,OpenSSL 0.9.8 < 0.9.8x DTLS CBC Denial of Service,
+CVE-2012-2333,5,Medium,10.0.2.5,tcp,443,OpenSSL 0.9.8 < 0.9.8x DTLS CBC Denial of Service,
+CVE-2013-0166,2.6,Low,10.0.2.5,tcp,80,OpenSSL < 0.9.8y Multiple Vulnerabilities,
+CVE-2013-0169,2.6,Low,10.0.2.5,tcp,80,OpenSSL < 0.9.8y Multiple Vulnerabilities,
+CVE-2013-0166,2.6,Low,10.0.2.5,tcp,443,OpenSSL < 0.9.8y Multiple Vulnerabilities,
+CVE-2013-0169,2.6,Low,10.0.2.5,tcp,443,OpenSSL < 0.9.8y Multiple Vulnerabilities,
+CVE-2013-2566,4.3,Medium,10.0.2.5,tcp,443,SSL RC4 Cipher Suites Supported (Bar Mitzvah),5.9
+CVE-2015-2808,4.3,Medium,10.0.2.5,tcp,443,SSL RC4 Cipher Suites Supported (Bar Mitzvah),5.9
+,,None,10.0.2.5,tcp,0,Patch Report,
+,,None,10.0.2.5,tcp,443,SSL Cipher Block Chaining Cipher Suites Supported,
+,,None,10.0.2.5,tcp,22,SSH Algorithms and Languages Supported,
+CVE-2008-5161,2.6,Low,10.0.2.5,tcp,22,SSH Server CBC Mode Ciphers Enabled,
+,2.6,Low,10.0.2.5,tcp,22,SSH Weak MAC Algorithms Enabled,
+CVE-2014-3566,4.3,Medium,10.0.2.5,tcp,443,SSLv3 Padding Oracle On Downgraded Legacy Encryption Vulnerability (POODLE),6.8
+,10,Critical,10.0.2.5,tcp,80,OpenSSL Unsupported,10
+,10,Critical,10.0.2.5,tcp,443,OpenSSL Unsupported,10
+CVE-2015-0204,4.3,Medium,10.0.2.5,tcp,443,SSL/TLS EXPORT_RSA <= 512-bit Cipher Suites Supported (FREAK),
+CVE-2015-4000,2.6,Low,10.0.2.5,tcp,443,SSL/TLS EXPORT_DHE <= 512-bit Export Cipher Suites Supported (Logjam),3.7
+CVE-2015-4000,2.6,Low,10.0.2.5,tcp,443,SSL/TLS Diffie-Hellman Modulus <= 1024 Bits (Logjam),3.7
+,,None,10.0.2.5,tcp,443,HSTS Missing From HTTPS Server,
+,,None,10.0.2.5,tcp,0,Ethernet MAC Addresses,
+CVE-2003-1418,4.3,Medium,10.0.2.5,tcp,80,Apache Server ETag Header Information Disclosure,5.3
+CVE-2003-1418,4.3,Medium,10.0.2.5,tcp,443,Apache Server ETag Header Information Disclosure,5.3
+CVE-2016-0800,4.3,Medium,10.0.2.5,tcp,443,SSL DROWN Attack Vulnerability (Decrypting RSA with Obsolete and Weakened eNcryption),5.9
+,4.3,Medium,10.0.2.5,tcp,22,SSH Weak Algorithms Supported,
+,,None,10.0.2.5,tcp,443,SSL Root Certification Authority Certificate Information,
+,6.1,Medium,10.0.2.5,tcp,443,TLS Version 1.0 Protocol Detection,6.5
+,,None,10.0.2.5,tcp,139,Microsoft Windows SMB2 and SMB3 Dialects Supported (remote check),
+,,None,10.0.2.5,tcp,0,Target Credential Status by Authentication Protocol - No Credentials Provided,
+,,None,10.0.2.5,tcp,0,OS Security Patch Assessment Not Available,
+,,None,10.0.2.5,tcp,0,Deprecated SSLv2 Connection Attempts,
+,,None,10.0.2.5,tcp,139,WMI Not Available,
+,,None,10.0.2.5,tcp,22,SSH Password Authentication Accepted,
+CVE-2021-40438,6.8,Critical,10.0.2.5,tcp,80,Apache < 2.4.49 Multiple Vulnerabilities,9
+CVE-2021-40438,6.8,Critical,10.0.2.5,tcp,443,Apache < 2.4.49 Multiple Vulnerabilities,9
+CVE-2021-34798,7.5,Critical,10.0.2.5,tcp,80,Apache < 2.4.49 Multiple Vulnerabilities,9.8
+CVE-2021-39275,7.5,Critical,10.0.2.5,tcp,80,Apache < 2.4.49 Multiple Vulnerabilities,9.8
+CVE-2021-34798,7.5,Critical,10.0.2.5,tcp,443,Apache < 2.4.49 Multiple Vulnerabilities,9.8
+CVE-2021-39275,7.5,Critical,10.0.2.5,tcp,443,Apache < 2.4.49 Multiple Vulnerabilities,9.8
+,,None,10.0.2.5,tcp,22,SSH SHA-1 HMAC Algorithms Enabled,
+,2.6,Low,10.0.2.5,tcp,22,SSH Weak Key Exchange Algorithms Enabled,3.7
+,,None,10.0.2.5,tcp,443,SSL/TLS Recommended Cipher Suites,
+CVE-2022-22719,7.5,Critical,10.0.2.5,tcp,80,Apache 2.4.x < 2.4.53 Multiple Vulnerabilities,9.8
+CVE-2022-22720,7.5,Critical,10.0.2.5,tcp,80,Apache 2.4.x < 2.4.53 Multiple Vulnerabilities,9.8
+CVE-2022-22721,7.5,Critical,10.0.2.5,tcp,80,Apache 2.4.x < 2.4.53 Multiple Vulnerabilities,9.8
+CVE-2022-23943,7.5,Critical,10.0.2.5,tcp,80,Apache 2.4.x < 2.4.53 Multiple Vulnerabilities,9.8
+CVE-2022-22719,7.5,Critical,10.0.2.5,tcp,443,Apache 2.4.x < 2.4.53 Multiple Vulnerabilities,9.8
+CVE-2022-22720,7.5,Critical,10.0.2.5,tcp,443,Apache 2.4.x < 2.4.53 Multiple Vulnerabilities,9.8
+CVE-2022-22721,7.5,Critical,10.0.2.5,tcp,443,Apache 2.4.x < 2.4.53 Multiple Vulnerabilities,9.8
+CVE-2022-23943,7.5,Critical,10.0.2.5,tcp,443,Apache 2.4.x < 2.4.53 Multiple Vulnerabilities,9.8
+CVE-2022-26377,7.5,Critical,10.0.2.5,tcp,80,Apache 2.4.x < 2.4.54 Multiple Vulnerabilities,9.8
+CVE-2022-28330,7.5,Critical,10.0.2.5,tcp,80,Apache 2.4.x < 2.4.54 Multiple Vulnerabilities,9.8
+CVE-2022-28614,7.5,Critical,10.0.2.5,tcp,80,Apache 2.4.x < 2.4.54 Multiple Vulnerabilities,9.8
+CVE-2022-28615,7.5,Critical,10.0.2.5,tcp,80,Apache 2.4.x < 2.4.54 Multiple Vulnerabilities,9.8
+CVE-2022-29404,7.5,Critical,10.0.2.5,tcp,80,Apache 2.4.x < 2.4.54 Multiple Vulnerabilities,9.8
+CVE-2022-30522,7.5,Critical,10.0.2.5,tcp,80,Apache 2.4.x < 2.4.54 Multiple Vulnerabilities,9.8
+CVE-2022-30556,7.5,Critical,10.0.2.5,tcp,80,Apache 2.4.x < 2.4.54 Multiple Vulnerabilities,9.8
+CVE-2022-31813,7.5,Critical,10.0.2.5,tcp,80,Apache 2.4.x < 2.4.54 Multiple Vulnerabilities,9.8
+CVE-2022-26377,7.5,Critical,10.0.2.5,tcp,443,Apache 2.4.x < 2.4.54 Multiple Vulnerabilities,9.8
+CVE-2022-28330,7.5,Critical,10.0.2.5,tcp,443,Apache 2.4.x < 2.4.54 Multiple Vulnerabilities,9.8
+CVE-2022-28614,7.5,Critical,10.0.2.5,tcp,443,Apache 2.4.x < 2.4.54 Multiple Vulnerabilities,9.8
+CVE-2022-28615,7.5,Critical,10.0.2.5,tcp,443,Apache 2.4.x < 2.4.54 Multiple Vulnerabilities,9.8
+CVE-2022-29404,7.5,Critical,10.0.2.5,tcp,443,Apache 2.4.x < 2.4.54 Multiple Vulnerabilities,9.8
+CVE-2022-30522,7.5,Critical,10.0.2.5,tcp,443,Apache 2.4.x < 2.4.54 Multiple Vulnerabilities,9.8
+CVE-2022-30556,7.5,Critical,10.0.2.5,tcp,443,Apache 2.4.x < 2.4.54 Multiple Vulnerabilities,9.8
+CVE-2022-31813,7.5,Critical,10.0.2.5,tcp,443,Apache 2.4.x < 2.4.54 Multiple Vulnerabilities,9.8
+CVE-2006-20001,7.6,Critical,10.0.2.5,tcp,80,Apache 2.4.x < 2.4.55 Multiple Vulnerabilities,9
+CVE-2022-36760,7.6,Critical,10.0.2.5,tcp,80,Apache 2.4.x < 2.4.55 Multiple Vulnerabilities,9
+CVE-2022-37436,7.6,Critical,10.0.2.5,tcp,80,Apache 2.4.x < 2.4.55 Multiple Vulnerabilities,9
+CVE-2006-20001,7.6,Critical,10.0.2.5,tcp,443,Apache 2.4.x < 2.4.55 Multiple Vulnerabilities,9
+CVE-2022-36760,7.6,Critical,10.0.2.5,tcp,443,Apache 2.4.x < 2.4.55 Multiple Vulnerabilities,9
+CVE-2022-37436,7.6,Critical,10.0.2.5,tcp,443,Apache 2.4.x < 2.4.55 Multiple Vulnerabilities,9
+,7.5,Critical,10.0.2.5,tcp,80,Apache httpd SEoL (<= 1.3.x),10
+,7.5,Critical,10.0.2.5,tcp,443,Apache httpd SEoL (<= 1.3.x),10
+CVE-2023-25690,10,Critical,10.0.2.5,tcp,80,Apache 2.4.x < 2.4.56 Multiple Vulnerabilities,9.8
+CVE-2023-27522,10,Critical,10.0.2.5,tcp,80,Apache 2.4.x < 2.4.56 Multiple Vulnerabilities,9.8
+CVE-2023-25690,10,Critical,10.0.2.5,tcp,443,Apache 2.4.x < 2.4.56 Multiple Vulnerabilities,9.8
+CVE-2023-27522,10,Critical,10.0.2.5,tcp,443,Apache 2.4.x < 2.4.56 Multiple Vulnerabilities,9.8
+,,None,10.0.2.6,udp,53,DNS Server BIND version Directive Remote Version Detection,
+,,None,10.0.2.6,tcp,21,FTP Server Detection,
+,,None,10.0.2.6,tcp,2121,FTP Server Detection,
+,,None,10.0.2.6,tcp,80,HTTP Server Type and Version,
+,,None,10.0.2.6,tcp,8180,HTTP Server Type and Version,
+CVE-1999-0524,0,None,10.0.2.6,icmp,0,ICMP Timestamp Request Remote Date Disclosure,0
+,,None,10.0.2.6,udp,137,Windows NetBIOS / SMB Remote Host Information Disclosure,
+CVE-1999-0632,0,None,10.0.2.6,udp,111,RPC portmapper Service Detection,0
+,,None,10.0.2.6,tcp,25,SMTP Server Detection,
+,,None,10.0.2.6,tcp,22,SSH Server Type and Version Information,
+,,None,10.0.2.6,tcp,23,Telnet Server Detection,
+,,None,10.0.2.6,udp,0,Traceroute Information,
+,,None,10.0.2.6,tcp,5900,VNC Software Detection,
+,,None,10.0.2.6,tcp,445,Microsoft Windows SMB LanMan Pipe Server Listing Disclosure,
+,2.6,Low,10.0.2.6,tcp,6000,X Server Detection,
+,,None,10.0.2.6,tcp,2049,NFS Share Export List,
+,,None,10.0.2.6,tcp,445,Microsoft Windows SMB NativeLanManager Remote System Information Disclosure,
+,,None,10.0.2.6,tcp,25,SSL Certificate Information,
+,,None,10.0.2.6,tcp,5432,SSL Certificate Information,
+,,None,10.0.2.6,tcp,22,SSH Protocol Versions Supported,
+,,None,10.0.2.6,tcp,53,DNS Server Detection,
+,,None,10.0.2.6,udp,53,DNS Server Detection,
+,,None,10.0.2.6,tcp,139,Microsoft Windows SMB Service Detection,
+,,None,10.0.2.6,tcp,445,Microsoft Windows SMB Service Detection,
+,,None,10.0.2.6,tcp,111,RPC Services Enumeration,
+,,None,10.0.2.6,tcp,2049,RPC Services Enumeration,
+,,None,10.0.2.6,tcp,35168,RPC Services Enumeration,
+,,None,10.0.2.6,tcp,35977,RPC Services Enumeration,
+,,None,10.0.2.6,tcp,46359,RPC Services Enumeration,
+,,None,10.0.2.6,udp,111,RPC Services Enumeration,
+,,None,10.0.2.6,udp,2049,RPC Services Enumeration,
+,,None,10.0.2.6,udp,42157,RPC Services Enumeration,
+,,None,10.0.2.6,udp,48900,RPC Services Enumeration,
+,,None,10.0.2.6,udp,53120,RPC Services Enumeration,
+,,None,10.0.2.6,tcp,3306,Service Detection (HELP Request),
+,,None,10.0.2.6,tcp,512,Unknown Service Detection: Banner Retrieval,
+,,None,10.0.2.6,tcp,8787,Unknown Service Detection: Banner Retrieval,
+,,None,10.0.2.6,tcp,6667,IRC Daemon Version Detection,
+CVE-2003-1567,5,Medium,10.0.2.6,tcp,80,HTTP TRACE / TRACK Methods Allowed,5.3
+CVE-2004-2320,5,Medium,10.0.2.6,tcp,80,HTTP TRACE / TRACK Methods Allowed,5.3
+CVE-2010-0386,5,Medium,10.0.2.6,tcp,80,HTTP TRACE / TRACK Methods Allowed,5.3
+,,None,10.0.2.6,tcp,21,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,22,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,23,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,25,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,53,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,80,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,111,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,139,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,445,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,512,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,513,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,514,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,1099,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,1524,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,2049,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,2121,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,3306,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,3632,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,5432,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,5900,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,6000,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,6667,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,8009,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,8180,Nessus SYN scanner,
+,,None,10.0.2.6,tcp,8787,Nessus SYN scanner,
+CVE-1999-0170,10,Critical,10.0.2.6,udp,2049,NFS Exported Share Information Disclosure,
+CVE-1999-0211,10,Critical,10.0.2.6,udp,2049,NFS Exported Share Information Disclosure,
+CVE-1999-0554,10,Critical,10.0.2.6,udp,2049,NFS Exported Share Information Disclosure,
+,,None,10.0.2.6,tcp,8180,Web Server Unconfigured - Default Install Page Present,
+,,None,10.0.2.6,tcp,80,WebDAV Detection,
+,,None,10.0.2.6,udp,69,TFTP Daemon Detection,
+,,None,10.0.2.6,tcp,0,OS Identification,
+,5,Medium,10.0.2.6,tcp,8180,Apache Tomcat Default Files,5.3
+,5,Medium,10.0.2.6,udp,53,DNS Server Cache Snooping Remote Information Disclosure,5.3
+,5,Medium,10.0.2.6,tcp,25,SSL Certificate Expiry,5.3
+,5,Medium,10.0.2.6,tcp,5432,SSL Certificate Expiry,5.3
+,,None,10.0.2.6,tcp,6667,Service Detection (GET request),
+,,None,10.0.2.6,tcp,0,Apache Banner Linux Distribution Disclosure,
+,,None,10.0.2.6,tcp,5900,VNC Server Security Type Detection,
+,,None,10.0.2.6,tcp,0,Nessus Scan Information,
+,10,Critical,10.0.2.6,tcp,25,SSL Version 2 and 3 Protocol Detection,9.8
+,10,Critical,10.0.2.6,tcp,5432,SSL Version 2 and 3 Protocol Detection,9.8
+,,None,10.0.2.6,tcp,8180,Web Server / Application favicon.ico Vendor Fingerprinting,
+,,None,10.0.2.6,tcp,8009,AJP Connector Detection,
+,,None,10.0.2.6,tcp,25,SSL Cipher Suites Supported,
+,,None,10.0.2.6,tcp,5432,SSL Cipher Suites Supported,
+,,None,10.0.2.6,tcp,1099,RMI Registry Detection,
+,,None,10.0.2.6,tcp,1099,RMI Registry Detection,
+,,None,10.0.2.6,tcp,21,Service Detection,
+,,None,10.0.2.6,tcp,22,Service Detection,
+,,None,10.0.2.6,tcp,23,Service Detection,
+,,None,10.0.2.6,tcp,25,Service Detection,
+,,None,10.0.2.6,tcp,80,Service Detection,
+,,None,10.0.2.6,tcp,1524,Service Detection,
+,,None,10.0.2.6,tcp,2121,Service Detection,
+,,None,10.0.2.6,tcp,5900,Service Detection,
+,,None,10.0.2.6,tcp,8180,Service Detection,
+,,None,10.0.2.6,tcp,80,HyperText Transfer Protocol (HTTP) Information,
+,,None,10.0.2.6,tcp,8180,HyperText Transfer Protocol (HTTP) Information,
+,,None,10.0.2.6,tcp,0,TCP/IP Timestamps Supported,
+,,None,10.0.2.6,tcp,445,Samba Server Detection,
+,,None,10.0.2.6,tcp,5432,PostgreSQL Server Detection,
+,4.3,Medium,10.0.2.6,tcp,25,SSL Weak Cipher Suites Supported,5.3
+CVE-2007-1858,2.6,Medium,10.0.2.6,tcp,25,SSL Anonymous Cipher Suites Supported,5.9
+CVE-2008-0166,10,Critical,10.0.2.6,tcp,22,Debian OpenSSH/OpenSSL Package Random Number Generator Weakness,
+CVE-2008-0166,10,Critical,10.0.2.6,tcp,25,Debian OpenSSH/OpenSSL Package Random Number Generator Weakness (SSL check),
+CVE-2008-0166,10,Critical,10.0.2.6,tcp,5432,Debian OpenSSH/OpenSSL Package Random Number Generator Weakness (SSL check),
+,10,Critical,10.0.2.6,tcp,0,Unix Operating System Unsupported Version Detection,10
+,,None,10.0.2.6,udp,53,DNS Server hostname.bind Map Hostname Disclosure,
+,,None,10.0.2.6,udp,53,DNS Server DNSSEC Aware Resolver,
+,,None,10.0.2.6,tcp,0,Ethernet Card Manufacturer Detection,
+,,None,10.0.2.6,tcp,8180,Apache Tomcat Detection,
+,,None,10.0.2.6,tcp,2121,Backported Security Patch Detection (FTP),
+,,None,10.0.2.6,tcp,22,Backported Security Patch Detection (SSH),
+,,None,10.0.2.6,tcp,80,Backported Security Patch Detection (WWW),
+,,None,10.0.2.6,tcp,25,SMTP Service STARTTLS Command Support,
+,5,High,10.0.2.6,tcp,2049,NFS Shares World Readable,7.5
+,5.8,Medium,10.0.2.6,tcp,23,Unencrypted Telnet Server,6.5
+CVE-2016-2183,5,High,10.0.2.6,tcp,25,SSL Medium Strength Cipher Suites Supported (SWEET32),7.5
+CVE-2016-2183,5,High,10.0.2.6,tcp,5432,SSL Medium Strength Cipher Suites Supported (SWEET32),7.5
+,,None,10.0.2.6,tcp,25,SSL Certificate 'commonName' Mismatch,
+,,None,10.0.2.6,tcp,5432,SSL Certificate 'commonName' Mismatch,
+,5,Medium,10.0.2.6,tcp,25,SSL Certificate with Wrong Hostname,5.3
+,5,Medium,10.0.2.6,tcp,5432,SSL Certificate with Wrong Hostname,5.3
+,,None,10.0.2.6,tcp,0,Common Platform Enumeration (CPE),
+CVE-2010-2075,10,Critical,10.0.2.6,tcp,6667,UnrealIRCd Backdoor Detection,
+,,None,10.0.2.6,tcp,80,Apache HTTP Server Version,
+,,None,10.0.2.6,tcp,80,PHP Version Detection,
+,,None,10.0.2.6,tcp,25,OpenSSL Detection,
+,,None,10.0.2.6,tcp,5432,OpenSSL Detection,
+,6.4,Medium,10.0.2.6,tcp,25,SSL Certificate Cannot Be Trusted,6.5
+,6.4,Medium,10.0.2.6,tcp,5432,SSL Certificate Cannot Be Trusted,6.5
+,,None,10.0.2.6,tcp,25,SSL Session Resume Supported,
+,10,Critical,10.0.2.6,tcp,1524,Bind Shell Backdoor Detection,9.8
+CVE-2011-0411,4,Medium,10.0.2.6,tcp,25,SMTP Service STARTTLS Plaintext Command Injection,
+CVE-2011-1430,4,Medium,10.0.2.6,tcp,25,SMTP Service STARTTLS Plaintext Command Injection,
+CVE-2011-1431,4,Medium,10.0.2.6,tcp,25,SMTP Service STARTTLS Plaintext Command Injection,
+CVE-2011-1432,4,Medium,10.0.2.6,tcp,25,SMTP Service STARTTLS Plaintext Command Injection,
+CVE-2011-1506,4,Medium,10.0.2.6,tcp,25,SMTP Service STARTTLS Plaintext Command Injection,
+CVE-2011-2165,4,Medium,10.0.2.6,tcp,25,SMTP Service STARTTLS Plaintext Command Injection,
+,,None,10.0.2.6,tcp,21,vsftpd Detection,
+,,None,10.0.2.6,tcp,111,RPC portmapper (TCP),
+,,None,10.0.2.6,tcp,0,Device Type,
+,,None,10.0.2.6,tcp,25,SSL / TLS Versions Supported,
+,,None,10.0.2.6,tcp,5432,SSL / TLS Versions Supported,
+,,None,10.0.2.6,tcp,25,SSL Perfect Forward Secrecy Cipher Suites Supported,
+,,None,10.0.2.6,tcp,5432,SSL Perfect Forward Secrecy Cipher Suites Supported,
+,6.4,Medium,10.0.2.6,tcp,25,SSL Self-Signed Certificate,6.5
+,6.4,Medium,10.0.2.6,tcp,5432,SSL Self-Signed Certificate,6.5
+,5,Medium,10.0.2.6,tcp,445,SMB Signing not required,5.3
+,10,Critical,10.0.2.6,tcp,5900,VNC Server 'password' Password,
+,,None,10.0.2.6,tcp,5900,VNC Server Unencrypted Communication Detection,
+CVE-2013-2566,4.3,Medium,10.0.2.6,tcp,25,SSL RC4 Cipher Suites Supported (Bar Mitzvah),5.9
+CVE-2015-2808,4.3,Medium,10.0.2.6,tcp,25,SSL RC4 Cipher Suites Supported (Bar Mitzvah),5.9
+CVE-2013-2566,4.3,Medium,10.0.2.6,tcp,5432,SSL RC4 Cipher Suites Supported (Bar Mitzvah),5.9
+CVE-2015-2808,4.3,Medium,10.0.2.6,tcp,5432,SSL RC4 Cipher Suites Supported (Bar Mitzvah),5.9
+,,None,10.0.2.6,tcp,0,Patch Report,
+,,None,10.0.2.6,tcp,25,SSL Cipher Block Chaining Cipher Suites Supported,
+,,None,10.0.2.6,tcp,5432,SSL Cipher Block Chaining Cipher Suites Supported,
+,,None,10.0.2.6,tcp,22,SSH Algorithms and Languages Supported,
+CVE-2008-5161,2.6,Low,10.0.2.6,tcp,22,SSH Server CBC Mode Ciphers Enabled,
+,2.6,Low,10.0.2.6,tcp,22,SSH Weak MAC Algorithms Enabled,
+,,None,10.0.2.6,tcp,53,DNS Server Version Detection,
+CVE-2014-3566,4.3,Medium,10.0.2.6,tcp,25,SSLv3 Padding Oracle On Downgraded Legacy Encryption Vulnerability (POODLE),6.8
+CVE-2014-3566,4.3,Medium,10.0.2.6,tcp,5432,SSLv3 Padding Oracle On Downgraded Legacy Encryption Vulnerability (POODLE),6.8
+CVE-2015-0204,4.3,Medium,10.0.2.6,tcp,25,SSL/TLS EXPORT_RSA <= 512-bit Cipher Suites Supported (FREAK),
+CVE-2015-4000,2.6,Low,10.0.2.6,tcp,25,SSL/TLS EXPORT_DHE <= 512-bit Export Cipher Suites Supported (Logjam),3.7
+,,None,10.0.2.6,tcp,80,Backported Security Patch Detection (PHP),
+,,None,10.0.2.6,tcp,0,Ethernet MAC Addresses,
+CVE-2016-0800,4.3,Medium,10.0.2.6,tcp,25,SSL DROWN Attack Vulnerability (Decrypting RSA with Obsolete and Weakened eNcryption),5.9
+,4.3,Medium,10.0.2.6,tcp,22,SSH Weak Algorithms Supported,
+CVE-2016-2118,6.8,High,10.0.2.6,tcp,445,Samba Badlock Vulnerability,7.5
+,,None,10.0.2.6,tcp,445,Server Message Block (SMB) Protocol Version 1 Enabled (uncredentialed check),
+,,None,10.0.2.6,tcp,445,Microsoft Windows SMB Versions Supported (remote check),
+,6.1,Medium,10.0.2.6,tcp,25,TLS Version 1.0 Protocol Detection,6.5
+,6.1,Medium,10.0.2.6,tcp,5432,TLS Version 1.0 Protocol Detection,6.5
+,,None,10.0.2.6,tcp,445,Samba Version,
+,,None,10.0.2.6,tcp,445,Microsoft Windows SMB2 and SMB3 Dialects Supported (remote check),
+,,None,10.0.2.6,tcp,0,Target Credential Status by Authentication Protocol - No Credentials Provided,
+,,None,10.0.2.6,tcp,0,OS Security Patch Assessment Not Available,
+,,None,10.0.2.6,tcp,5432,PostgreSQL STARTTLS Support,
+,,None,10.0.2.6,tcp,0,Deprecated SSLv2 Connection Attempts,
+CVE-2020-1745,7.5,Critical,10.0.2.6,tcp,8009,Apache Tomcat AJP Connector Request Injection (Ghostcat),9.8
+CVE-2020-1938,7.5,Critical,10.0.2.6,tcp,8009,Apache Tomcat AJP Connector Request Injection (Ghostcat),9.8
+,,None,10.0.2.6,tcp,445,WMI Not Available,
+CVE-2020-8616,5,High,10.0.2.6,udp,53,ISC BIND Service Downgrade / Reflected DoS,8.6
+CVE-2020-8617,4.3,Medium,10.0.2.6,udp,53,ISC BIND Denial of Service,5.9
+CVE-2020-8622,4,Medium,10.0.2.6,udp,53,"ISC BIND 9.x < 9.11.22, 9.12.x < 9.16.6, 9.17.x < 9.17.4 DoS",6.5
+,,None,10.0.2.6,tcp,22,SSH Password Authentication Accepted,
+,,None,10.0.2.6,tcp,22,SSH SHA-1 HMAC Algorithms Enabled,
+,2.6,Low,10.0.2.6,tcp,22,SSH Weak Key Exchange Algorithms Enabled,3.7
+,,None,10.0.2.6,tcp,25,SSL/TLS Recommended Cipher Suites,
+,,None,10.0.2.6,tcp,5432,SSL/TLS Recommended Cipher Suites,
+,7.5,Critical,10.0.2.6,tcp,8180,Apache Tomcat Web Server SEoL (<= 5.5.x),10

@@ -1,0 +1,4 @@
+asset,ip,Source,Destination
+H1,10.0.0.2,H1,"H2, H3"
+H2,10.0.0.1,H2,H1
+H3,10.0.0.3,H3,H1

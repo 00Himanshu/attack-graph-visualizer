@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Attack Graph Visulization</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+        *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+        .clearfix:before, .clearfix:after { content: ''; display: table; }
+        .clearfix:after { clear: both; }
+
+        body {
+            background: #ffffff;
+            height: 700px;
+            width: 100%;
+        }
+
+        #demo-canvas {
+            background: #ffffff;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index : -1;
+        }
+
+        a {
+            color: #dac9c9;
+            text-decoration: none;
+        }
+
+        a:hover, a:focus {
+            color: #34495e;
+        }
+
+        section {
+
+            text-align: center;
+        }
+        .rondechaka {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh;
+            z-index: 2;
+          }
+    </style>
+</head>
+<body>
+    
+    <center><center><p style="margin-bottom: -220px;margin-top: 200px;">Powered by</p>
+        <img src="{{ url_for('static',filename='Xploit-removebg-preview.png')}}" alt="" style="margin-top: 0px;margin-bottom: -400px;"></center>
+    <div class="rondechaka">    
+        <form class="row g-2" method="POST" action="{{ link }}">
+            <select name="start_option_1" class="form-select" aria-label="Default select example">
+                <option selected>Select Starting Node</option>
+                {% for j in assets %}
+                <option value="{{ j }}">{{ j }}</option>
+                {% endfor %}
+                <!-- <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option> -->
+            </select>
+            <select name="start_option_2" class="form-select" aria-label="Default select example">
+                <option selected>Select Access Level</option>
+                {% for j in levels %}
+                <option value="{{ j }}">{{ j }}</option>
+                {% endfor %}
+                <!-- <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option> -->
+            </select>
+            <select name="end_option_1" class="form-select" aria-label="Default select example">
+                <option selected>Select Ending Level</option>
+                {% for j in assets %}
+                <option value="{{ j }}">{{ j }}</option>
+                {% endfor %}
+                <!-- <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option> -->
+            </select>
+            <select name="end_option_2" class="form-select" aria-label="Default select example">
+                <option selected>Select Access Level</option>
+                {% for j in levels %}
+                <option value="{{ j }}">{{ j }}</option>
+                {% endfor %}
+                <!-- <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option> -->
+            </select>
+            <center>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Find Reachability</button>
+            </div>
+            </center>
+        </form>
+    </div>
+    <div id="large-header" class="large-header">
+        <canvas id="demo-canvas" ></canvas>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/easing/EasePack.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+    <script src="animation.js"></script>
+    <script 
+    type="text/javascript"
+    src="{{ url_for('static',filename='animation.js')}}"></script>
+
+    
+</body>
+</html>

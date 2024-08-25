@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testing cytoscape</title>
+    <script 
+    type="text/javascript"
+    src="{{ url_for('static',filename='cytoscape.min.js')}}"></script>
+    <style>
+        #cy {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+    </style>
+    
+</head>    
+<body>
+    
+    <div id="cy"></div>
+    <script>
+        const data = '{{nodes | tojson}}';
+        console.log(data);
+        var cy = cytoscape({
+        container: document.getElementById('cy'),
+        elements: JSON.parse(data),
+            style: [
+                {
+                    selector: 'node',
+                    style: {
+                        shape: 'round',
+                        'background-color': 'red',
+                        "font-family" : "SansSerif.plain",
+                        "font-weight" : "normal",
+                        "text-valign" : "center",
+                        "text-halign" : "center",
+                        "text-opacity" : 1.0,
+                        "font-size" : 12,
+                        "content" : "data(name)"
+                    }
+                }],
+                layout:{
+                    'name':'{{ layout }}'
+                }
+        });
+    </script>
+
+</body>
+</html>
